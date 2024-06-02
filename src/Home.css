@@ -1,0 +1,36 @@
+/* Home.css */
+
+.home-section {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 100vh;
+background-image: url('_\ \(1\).jpeg');
+color: #fff;
+}
+
+.content {
+display: flex;
+justify-content: space-between;
+/* Spacing between text and photo */
+width: 80%; /* Adjust width as needed */
+}
+
+.text-section {
+max-width: 60%; /* Adjust width as needed */
+padding: 0 20px; /* Adjust padding as needed */
+}
+
+.text-section h2,
+.text-section h1 {
+margin: 10px 0;
+}
+
+.photo-section {
+max-width: 30%; /* Adjust width as needed */
+}
+
+.photo-section img {
+width: 100%; /* Make sure the photo fills the container */
+}
