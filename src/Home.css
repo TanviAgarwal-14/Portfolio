@@ -1,4 +1,3 @@
-/* Home.css */
 
 .home-section {
 display: flex;
@@ -13,13 +12,12 @@ color: #fff;
 .content {
 display: flex;
 justify-content: space-between;
-/* Spacing between text and photo */
-width: 80%; /* Adjust width as needed */
+width: 80%;
 }
 
 .text-section {
-max-width: 60%; /* Adjust width as needed */
-padding: 0 20px; /* Adjust padding as needed */
+max-width: 60%;
+padding: 0 20px;
 }
 
 .text-section h2,
@@ -28,9 +26,9 @@ margin: 10px 0;
 }
 
 .photo-section {
-max-width: 30%; /* Adjust width as needed */
+max-width: 30%;
 }
 
 .photo-section img {
-width: 100%; /* Make sure the photo fills the container */
+width: 100%;
 }
