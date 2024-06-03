@@ -1,10 +1,10 @@
 import React from 'react';
-import NavBar from './NavBar';
+import NavBar from './NavBar.js';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import About from './About';
-import Home from'./Home';
-import Skill from '/home/tanviagarwal/portfolio/portfolio/src/Skill.js';
-import Project from './Project';
+import About from './About.js';
+import Home from'./Home.js';
+import Skill from './Skill.js';
+import Project from './Project.js';
 
 function App() {
   return (
