@@ -13,7 +13,6 @@ return(
     <div className="typing-section">
         <h2>Hi There!!</h2>
         <h1>This is Tanvi Agarwal</h1>
-    </div>
     <Typing
         text={[
         "I am a Software Developer.",
@@ -23,6 +22,7 @@ return(
         deletingSpeed={50}
         duration={1000}
     />
+    </div>
     <div className="photo-section">
         <img src={photo} alt="Your Photo" />
     </div>
