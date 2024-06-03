@@ -1,7 +1,7 @@
 import './NavBar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHouse, faCode, faUser, faPhone, faLaptop } from '@fortawesome/free-solid-svg-icons';
-import logo from "../../portfolio/src/logo.png";
+import logo from "./logo.png";
 import { Link } from 'react-router-dom';
 
 function NavBar() {
