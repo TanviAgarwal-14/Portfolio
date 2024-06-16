@@ -1,10 +1,6 @@
 import './NavBar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-<<<<<<< HEAD
 import { faHouse, faCode, faUser, faPhone, faLaptop} from '@fortawesome/free-solid-svg-icons';
-=======
-import { faHouse, faCode, faUser, faPhone, faLaptop } from '@fortawesome/free-solid-svg-icons';
->>>>>>> origin/master
 import logo from "./logo.png";
 import { Link } from 'react-router-dom';
 
