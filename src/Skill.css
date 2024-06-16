@@ -1,18 +1,20 @@
 .skill-container {
-max-width: 500px;
-margin: 0 auto;
-padding: 10px;
+    margin: 0 auto;
+    padding: 20px;
+    width: 98%; 
+    height: 88vh;
+    background-image: url(backgr.jpeg);
 }
 
 .skill-container h2 {
 text-align: center;
-color: rgb(112, 6, 6);
+color:burlywood;
 font-size: 4em;
 }
 
 .icon-list {
 display: flex;
-/* flex-wrap: wrap; */
+flex-wrap: wrap;
 justify-content: space-around;
 }
 
@@ -26,6 +28,6 @@ justify-content: space-around;
 .icon-item p{
     text-align: center;
     font-size: 1.5em;
-    color: rgb(112, 6, 6);
+    color: burlywood;
     font-weight: bold;
 }

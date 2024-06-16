@@ -1,15 +1,12 @@
-/* About.css */
-
 .about-container {
     display: flex;
     justify-content: center; /* Center the content horizontally */
-    align-items: center; /* Center the content vertically */
-    width: 98%; /* Ensure the container covers the full width */
-    height: 88vh; /* Ensure the container covers the full height */
+    align-items: center;
+    width: 98%; 
+    height: 88vh; 
     padding: 20px;
-    background: linear-gradient(135deg, #8308a1, #34023e); /* Light gradient background */
+    background-image: url(backgr.jpeg);
 }
-
 .about-content {
 max-width: 700px; /* Max width for the content */
 text-align: center; /* Align text to the center */
@@ -19,39 +16,38 @@ text-align: center; /* Align text to the center */
 text-align: center; /* Align header text to the center */
 margin-bottom: 20px;
 font-weight: bold; /* Make text bold */
-color: #f6f1f8; /* Darker text color */
+color: rgb(243, 222, 103); /* Darker text color */
 font-size: 3em; /* Increase font size */
 }
 
 .about-container h2 {
 /* line-height: 1.6; */
 margin-bottom: 15px;
-color: #0e0000; /* Adjust text color */
+color:cornsilk; /* Adjust text color */
 font-size: 1.5em; /* Slightly increase font size */
 }
-
 .connect-section h2 {
-text-align: center; /* Align header text to the center */
-margin-bottom: 10px;
-font-weight: bold; /* Make text bold */
-color: #e7dceb; /* Darker text color */
-font-size: 2rem; /* Increase font size */
-}
-.icon-container {
-    display: flex;
-    justify-content: space-between; /* Space icons evenly */
-    margin-top: 40px; /* Adjust margin as needed */
-}
-
-.icon-container a {
-margin: 0 100px; /* Add space between icons and links */
-}
-.icon {
-    width: 500px;
-    height: 500px;
-    border-radius: 50%;
-    background-color: white;
-    display: flex; /* Center icon content */
-    align-items: center;
-    justify-content: center;
-}
+    text-align: center; 
+    margin-bottom: 10px;
+    font-weight: bold; /* Make text bold */
+    color: #0b0b0b; /* Darker text color */
+    font-size: 2rem; /* Increase font size */
+    }
+    .icon-container {
+        display: flex;
+        justify-content: space-between; /* Space icons evenly */
+        margin-top: 40px;
+    }
+    
+    .icon-container a {
+    margin: 0 100px;
+    }
+    .icon {
+        width: 500px;
+        height: 500px;
+        border-radius: 50%;
+        background-color: rgb(0, 0, 0); 
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+    }    

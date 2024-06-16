@@ -1,51 +1,13 @@
 import React from 'react';
 import './Project.css';
 
-function Projects() {
-const projects = [
-{
-    title: "Guess The Word Game",
-    description: "A simple game built using HTML, CSS, and JavaScript",
-    github: "https://github.com/TanviAgarwal-14/GuessTheWord-game",
-},
-{
-    title: "Tic Tac Toe",
-    description: "A backend project",
-    github: "https://github.com/TanviAgarwal-14/TicTacToe",
-},
-];
-
-return (
-<div className="projects-container">
-    <h2>My Projects</h2>
-    <div className="projects-grid">
-    {projects.map((project) => (
-        <ProjectCard key={project.title} project={project} />
-    ))}
+function Project() {
+  return (
+    <div className="Project-container">
+      <h2>Coming Soon!</h2>
+      <p>I am working on something awesome. Stay tuned!</p>
+      {/* Optionally, you can add a countdown timer or other relevant information */}
     </div>
-</div>
-);
+  );
 }
-
-function ProjectCard({ project }) {
-return (
-<div className="project-card">
-    <img src={project.image} alt="project.title" />
-    <div className="project-info">
-    <h3>{project.title}</h3>
-    <p>{project.description}</p>
-    <div className="project-links">
-        {project.demo && (
-        <a href={project.demo}>
-        </a>
-        )}
-        <a href={project.github}>
-        GitHub
-        </a>
-    </div>
-    </div>
-</div>
-);
-}
-
-export default Projects;
+export default Project;

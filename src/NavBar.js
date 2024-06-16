@@ -1,6 +1,6 @@
 import './NavBar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHouse, faCode, faUser, faPhone, faLaptop } from '@fortawesome/free-solid-svg-icons';
+import { faHouse, faCode, faUser, faPhone, faLaptop} from '@fortawesome/free-solid-svg-icons';
 import logo from "./logo.png";
 import { Link } from 'react-router-dom';
 
@@ -15,6 +15,7 @@ return (
     <li className="nav-item"><Link to="/about"><FontAwesomeIcon icon={faUser} /> About</Link></li>
     <li className="nav-item"><Link to="/skills"><FontAwesomeIcon icon={faLaptop} /> Skills</Link></li>
     <li className="nav-item"><Link to="/projects"><FontAwesomeIcon icon={faCode} /> Projects</Link></li>
+    <li className="nav-item"><Link to="/Connect"><FontAwesomeIcon icon={faPhone} /> Connect</Link></li>
     </ul>
 </nav>
 );
