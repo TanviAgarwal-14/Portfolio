@@ -1,12 +1,20 @@
 import React from 'react';
+<<<<<<< HEAD
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import NavBar from './NavBar.js';
 // import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+=======
+import NavBar from './NavBar.js';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+>>>>>>> origin/master
 import About from './About.js';
 import Home from'./Home.js';
 import Skill from './Skill.js';
 import Project from './Project.js';
+<<<<<<< HEAD
 import Connect from './Connect.js';
+=======
+>>>>>>> origin/master
 
 function App() {
   return (

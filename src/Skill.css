@@ -8,13 +8,21 @@
 
 .skill-container h2 {
 text-align: center;
+<<<<<<< HEAD
 color:burlywood;
+=======
+color: rgb(112, 6, 6);
+>>>>>>> origin/master
 font-size: 4em;
 }
 
 .icon-list {
 display: flex;
+<<<<<<< HEAD
 flex-wrap: wrap;
+=======
+/* flex-wrap: wrap; */
+>>>>>>> origin/master
 justify-content: space-around;
 }
 
@@ -28,6 +36,12 @@ justify-content: space-around;
 .icon-item p{
     text-align: center;
     font-size: 1.5em;
+<<<<<<< HEAD
     color: burlywood;
     font-weight: bold;
 }
+=======
+    color: rgb(112, 6, 6);
+    font-weight: bold;
+}
+>>>>>>> origin/master
